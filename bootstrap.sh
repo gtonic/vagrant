@@ -38,7 +38,7 @@ fi
 
 # install IDEs
 sudo snap install --classic eclipse
-sudo snap install --classic vscode
+sudo snap install --classic code
 
 # set keyboard
 setxkbmap de
