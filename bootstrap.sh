@@ -3,7 +3,7 @@
 # basic updates/upgrades
 sudo apt-get update
 #apt-get dist-upgrade -y
-sudo apt-get install -y docker.io vim curl wget openjdk-8-jdk
+sudo apt-get install -y docker.io vim curl wget openjdk-8-jdk nodejs
 
 # have sdkman
 curl -s "https://get.sdkman.io" | bash

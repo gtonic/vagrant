@@ -10,19 +10,19 @@ Tom's development Box
 
 - curl
 - docker
+- dotnet
 - eclipse
 - gradle
 - java 8
 - java 14
+- nodejs
 - oc client
 - vscode
 - wget
 
 ## TODOs
 
-- ms dotnet
 - powershell
-- nodejs
 
 ## Adding additional software
 
