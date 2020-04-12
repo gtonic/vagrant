@@ -22,8 +22,9 @@ then
 else
     wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh && chmod +x dotnet-install.sh && ./dotnet-install.sh
     echo "export PATH=$PATH:~/.dotnet" >> ~/.bashrc
-fi   
-~/.dotnet/dotnet tool install --global PowerShell
+fi
+# does not work yet on 20.04
+#~/.dotnet/dotnet tool install --global PowerShell
 
 # install okd cli
 if [[ -x "/usr/bin/oc" ]]
